@@ -1,5 +1,6 @@
 # MCX_QASM
-Decomposition of 14-qubit Toffoli gate
+Decomposition of 14-qubit Toffoli gate:
+
 My circuit decomposes the 14-qubit-controlled Toffoli into 4 “smaller” multi-controlled Toffoli gates. The circuit uses 20 qubits where, qubits 0,...,13 are the 
 controls, qubit 14 is the target, and qubits 15,...,19 are the auxiliaries.
 
